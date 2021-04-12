@@ -45,35 +45,7 @@ hearingAboutUs2:string[]=["from internet","from friend" ];
   constructor(private fb:FormBuilder) { }
 
   ngOnInit(): void {
-    //this.userName=this.registerForm.get('adas');
   }
-
-  
- 
-  bindData()
-  {
-    //  this.registerForm.setValue({
-    //    userName:'ITI',
-    //    password:'123',
-    //    confirmPassword:'123',
-    //    address:{
-    //      state:'USA',
-    //      city:'OHIO',
-    //      postalCode:'32146'
-    //    }
-    //  })
-    this.registerForm.patchValue({
-      userName:'ITI',
-      // password:'123',
-      // confirmPassword:'123',
-      address:{
-        state:'USA',
-        city:'OHIO',
-        postalCode:'32146'
-      }
-    })
-  
-
 
 }
 }
