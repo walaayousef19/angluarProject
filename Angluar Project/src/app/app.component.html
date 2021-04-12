@@ -1,0 +1,24 @@
+<!--<app-header></app-header><br>
+
+
+<button (click)="renderval()">Get all Product</button><br>
+<input type="text" #serach>
+<button (click)="rendervalById(serach.value)">Get product by id</button>
+<br><br>
+
+
+<app-car></app-car>
+<button (click)="rendercars()">Get all cars</button><br>
+<input type="text" #serach>
+<button (click)="rendercarsByName(serach.value)">Get car by name</button>
+<br><br>-->
+<app-header></app-header><br>
+<nav>
+    <a routerLink="/Products">Products</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a routerLink="/Users">Users</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a routerLink="/Posts">Posts</a>
+
+</nav>
+
+<router-outlet></router-outlet> 
+<app-footer></app-footer>
